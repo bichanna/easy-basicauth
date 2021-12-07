@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 import os
 
-VERSION = "0.0.5"
+VERSION = "0.0.8"
 DESCRIPTION = 'Basic auth for Django'
 README = os.path.join(os.path.dirname(__file__), "README.md")
 
