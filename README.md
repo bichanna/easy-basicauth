@@ -8,7 +8,9 @@ pip install easy-basicauth
 ```
 
 ## Usage
-It's very easy and simple: just do this:
+It's very easy to use.
+Just add `@basic_auth_required` just above your function name.
+> **NOTE**: You should add `user` as one of the parameters.
 ```python
 from basicauth.decorator import basic_auth_required
 
@@ -24,8 +26,6 @@ class SomeClass(View):
   def get(request, user):
     pass
 ```
-**NOTE**:
-You should add `user` as one of the parameters.
 
 
 
