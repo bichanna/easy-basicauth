@@ -15,15 +15,15 @@ from basicauth.decorator import basic_auth_required
 
 @basic_auth_required
 def some_view(request, user):
-	pass
+    pass
 ```
 
 In case you prefer classes to functions:
 ```python
 class SomeClass(View):
-  @basic_auth_required
-  def get(request, user):
-    pass
+    @basic_auth_required
+    def get(request, user):
+        pass
 ```
 
 
