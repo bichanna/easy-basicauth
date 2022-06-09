@@ -11,7 +11,7 @@ It's very easy to use.
 Just add `@basic_auth_required` just above your function name.
 > **NOTE**: You should add `user` as one of the parameters.
 ```python
-from basicauth.decorator import basic_auth_required
+from basicauth import basic_auth_required
 
 @basic_auth_required
 def some_view(request, user):
