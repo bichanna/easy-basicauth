@@ -7,7 +7,6 @@ pip install easy-basicauth
 ```
 
 ## Usage
-It's very easy to use.
 Just add `@basic_auth_required` just above your function name.
 > **NOTE**: You should add `user` as one of the parameters.
 ```python
